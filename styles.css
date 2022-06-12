@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-family: 'Bangers', cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
   *,
@@ -18,15 +18,14 @@ html {
     color: rgb(21, 255, 0);
   }
 
-
 .portfolio-box {
-    width: 50px;
-    height: 50px;
-}
-
-.portfolio-box .img-fluid {
     width: 350px;
     height: 250px;
+}
+
+.img-styles {
+    width: 400px;
+    height: 350px
 }
 
 .enunciado {
@@ -35,4 +34,17 @@ html {
 
 .page-section{
     color: white;
+}
+
+.img-service{
+    width: 100px;
+    height: 100px;
+}
+
+.project-name{
+    display: flex;
+}
+
+.page-section {
+    padding-top: 100px;
 }
