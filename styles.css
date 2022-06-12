@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+}
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+    color: rgb(21, 255, 0);
+  }
+
+
+.portfolio-box {
+    width: 50px;
+    height: 50px;
+}
+
+.portfolio-box .img-fluid {
+    width: 350px;
+    height: 250px;
+}
+
+.enunciado {
+    padding: 200px;
+}
+
+.page-section{
+    color: white;
+}
